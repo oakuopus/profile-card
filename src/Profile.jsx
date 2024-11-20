@@ -1,6 +1,23 @@
+import react from 'react';
 import ProfileCard from "./components/Profile-card.jsx"
 
+const socials = {
+    github: "https://github.com/oakuopus",
+    instagram: "https://www.instagram.com/",
+    facebook: "https://www.facebook.com/"
+}
+
 function Profile(){
-    return <ProfileCard fname="Oliver" lname="Kuopus" img="https://freerangestock.com/sample/120140/business-man-profile-vector.jpg" mail="okuopu637@west-mec.org" socials={{github: "#", instagram: "#", facebook: "#"}} />
+    return(
+        <div>
+            <ProfileCard
+                fname = "John"
+                lname = "Doe"
+                img = "https://freerangestock.com/sample/120140/business-man-profile-vector.jpg"
+                mail = "JohnDoe@gmail.com"
+                socials = {socials}
+            />
+        </div>
+    )
 }
 export default Profile

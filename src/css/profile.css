@@ -1,0 +1,38 @@
+main {
+  max-width: 250px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #013220;
+  text-align: center;
+}
+main img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+main h2 {
+  font-size: 2rem;
+  color: #f5f5d0;
+  margin: 10px 0;
+}
+main p a {
+  font-size: 1rem;
+  color: #f5f5d0;
+  text-decoration: none;
+  border: none;
+}
+main p a img {
+  background-color: black;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: 0 12px;
+  transition: 1s;
+}
+main p a img:hover {
+  transform: scale(1.2);
+}
